@@ -6,10 +6,11 @@ import './App.css';
 
 function App() {
   const jobArray = Data;
+  const New = jobArray.new;
    return (
     <div className="App">
       <Navbar />
-      <DisplayData array={jobArray}/>
+      <DisplayData array={jobArray} New={New}/>
     </div>
   );
 }
